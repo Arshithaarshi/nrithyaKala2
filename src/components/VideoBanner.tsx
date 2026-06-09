@@ -1,4 +1,4 @@
-import videoBg from "@/assets/background-video.mp4";
+import videoBg from "@/assets/background-video-compressed.mp4";
 import { Link } from "react-router-dom";
 
 const VideoBanner = () => {
