@@ -3,22 +3,22 @@ import { CalendarDays, MapPin } from "lucide-react";
 
 const events = [
   {
-    date: "Apr 12, 2026",
+    date: "July 5th ",
     title: "Annual Arangetram Ceremony",
     location: "Kalakshetra Auditorium, Chennai",
-    description: "Join us as three of our senior students present their solo debut performances.",
+    description: "Join us as we celebrate the Arangetram of our students from the USA, marking a significant milestone in their Bharatanatyam journey. This debut performance showcases years of dedication, discipline, and artistic excellence.",
   },
   {
-    date: "May 8, 2026",
-    title: "Natyanjali Dance Festival",
+    date: "June 28th",
+    title: "Prayathnam Examination",
     location: "Chidambaram Nataraja Temple",
-    description: "Our intermediate and advanced students perform at this prestigious temple dance festival.",
+    description: "Kavinaya Natiyalaya is proud to be associated with the Prayathnam Institution in offering structured diploma examinations in Bharatanatyam. The Prayathnam exams provide students with an opportunity to assess their progress and achieve nationally recognised certification.",
   },
   {
-    date: "Jun 20, 2026",
-    title: "Summer Workshop — Abhinaya Intensive",
+    date: "September 14th",
+    title: "Salangai Poojai",
     location: "NrityaKala Studio, Mylapore",
-    description: "A 5-day immersive workshop focused on emotional expression and storytelling in dance.",
+    description: "Join us for the Salangai Poojai of our adult batch students, to be held in the gracious presence of our Acharya's Guru, Dr. Supriya Ravikumar, as the Chief Guest. This auspicious occasion celebrates commitment to learning and reminds us that age is never a barrier to pursuing one's passion for dance",
   },
 ];
 

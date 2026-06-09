@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "What should students wear to class?",
-    a: "Students should wear a comfortable practice saree or a salwar kameez. Ghungroos (ankle bells) will be provided for beginners and can be purchased as they advance.",
+    a: "Students should attend class in the practical saree or salwar uniform provided by our institution . They should wear a long bindi , bangles , chain , jumkas . Hair should be neatly parted in the centre (ner vagudu) and and braided properly (pinni) . Wearing anklets is mandatory fpr class .  ",
   },
   {
     q: "Are online classes available?",

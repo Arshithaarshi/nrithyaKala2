@@ -1,10 +1,10 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { Clock, Phone, Mail } from "lucide-react";
+import { Clock, Phone, Mail ,Instagram,Youtube} from "lucide-react";
 
 const hours = [
-  { day: "Monday – Friday", time: "9:00 AM – 8:30 PM" },
-  { day: "Saturday", time: "8:00 AM – 3:00 PM" },
-  { day: "Sunday", time: "Closed" },
+  { day: "Monday – saturday", time: "1:00 PM – 8:30 PM" },
+  { day: "Sunday", time: "8:00 PM – 7:00 PM" },
+  
 ];
 
 export default function OfficeHours() {
@@ -38,22 +38,40 @@ export default function OfficeHours() {
           <div className="bg-background rounded-sm p-6 md:p-8 shadow-sm">
             <h3 className="font-display text-xl font-bold text-foreground mb-6">Reach Us Directly</h3>
             <div className="space-y-5">
-              <a href="tel:+919876543210" className="flex gap-4 items-center group">
+              <a href="tel:+919543611112" className="flex gap-4 items-center group">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
                   <Phone className="w-4 h-4 text-accent" />
                 </div>
                 <div>
                   <p className="font-body text-foreground font-medium text-sm">Phone</p>
-                  <p className="font-body text-foreground/60 text-sm">+91 98765 43210</p>
+                  <p className="font-body text-foreground/60 text-sm">+91 9543611112</p>
                 </div>
               </a>
-              <a href="mailto:info@nrityakala.com" className="flex gap-4 items-center group">
+              <a href="mailto:Laya.menu@gmail.com" className="flex gap-4 items-center group">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
                   <Mail className="w-4 h-4 text-accent" />
                 </div>
                 <div>
                   <p className="font-body text-foreground font-medium text-sm">Email</p>
-                  <p className="font-body text-foreground/60 text-sm">info@nrityakala.com</p>
+                  <p className="font-body text-foreground/60 text-sm">Laya.menu@gmail.com</p>
+                </div>
+              </a>
+               <a href="instagram" className="flex gap-4 items-center group">
+                <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                  <Instagram className="w-4 h-4 text-accent" />
+                </div>
+                <div>
+                  <p className="font-body text-foreground font-medium text-sm">Instagram</p>
+                  <p className="font-body text-foreground/60 text-sm">kavinaya_natiyalaya</p>
+                </div>
+              </a>
+               <a href="yutube" className="flex gap-4 items-center group">
+                <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
+                  <Youtube className="w-4 h-4 text-accent" />
+                </div>
+                <div>
+                  <p className="font-body text-foreground font-medium text-sm">YouTube</p>
+                  <p className="font-body text-foreground/60 text-sm">kavinaya natiyalaya</p>
                 </div>
               </a>
             </div>

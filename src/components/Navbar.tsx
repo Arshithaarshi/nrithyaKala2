@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "../assets/Logo.png";
+import Logo2 from "../assets/Logo2.png";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -14,6 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -31,11 +34,13 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link
-            to="/"
-            className="font-display text-xl md:text-2xl font-bold tracking-tight text-primary"
-          >
-            Kavinaya<span className="text-accent"> Natiyalaya</span>
+          <Link to="/" className="flex items-center shrink-0">
+            <img
+              src={isHomePage ? Logo2 : Logo}
+              alt="Kavinaya Natiyalaya Logo"
+              className="h-10 md:h-14 w-auto object-contain"
+            />
+            
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

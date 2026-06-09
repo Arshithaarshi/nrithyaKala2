@@ -8,36 +8,36 @@ import gallery4 from "@/assets/gallery-4.jpg";
 const courses = [
   { 
     name: "Bharatanatyam",
-    image: gallery1,
+    image: gallery4,
     desc: "Classical South Indian temple dance"
   },
 
   { 
-    name: "Nattuvangam",
-    image: gallery2,
+    name: "Salangai poojai",
+    image: gallery4,
     desc: "The art of rhythmic recitation and coordination"
   },
 
   { 
-    name: "Prayanthanam",
-    image: gallery3,
+    name: "Pro Arangetram",
+    image: gallery4,
     desc: "A graceful journey into expressive dance and creativity"
   },
 
   { 
-    name: "Pro-Arangetram",
+    name: "Prayathnam",
     image: gallery4,
     desc: "Advanced stage preparation and performance training"
   },
 
   { 
-    name: "Salangai Poojai",
+    name: "Thattu Kazhi",
     image: gallery4,
     desc: "A traditional ceremonial milestone for dance students"
   },
 
   { 
-    name: "Thattu Kazhi",
+    name: "Nattuvangam",
     image: gallery4,
     desc: "Foundational rhythmic footwork and coordination training"
   },

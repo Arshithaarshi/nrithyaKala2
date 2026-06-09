@@ -2,10 +2,11 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Clock } from "lucide-react";
 
 const schedule = [
-  { day: "Monday", beginner: "4:00 – 5:30 PM", intermediate: "5:30 – 7:00 PM", advanced: "7:00 – 8:30 PM" },
-  { day: "Wednesday", beginner: "4:00 – 5:30 PM", intermediate: "5:30 – 7:00 PM", advanced: "7:00 – 8:30 PM" },
-  { day: "Friday", beginner: "4:00 – 5:30 PM", intermediate: "—", advanced: "5:30 – 7:30 PM" },
-  { day: "Saturday", beginner: "9:00 – 10:30 AM", intermediate: "10:30 AM – 12:00 PM", advanced: "12:00 – 2:00 PM" },
+  { day: "Monday", beginner: " 5:30 – 8:00 PM", intermediate: "—", advanced: "7:00 – 8:30 PM" },
+  { day: "Tuesday", beginner: " 5:30 – 8:00 PM", intermediate: "11:00 AM – 2:00 PM", advanced: "7:00 – 8:30 PM" },
+  { day: "Thursday", beginner: " 5:30 – 8:00 PM", intermediate: "—", advanced: "5:30 – 7:30 PM" },
+  { day: "Saturday", beginner: " 5:30 – 8:00 PM", intermediate: "—", advanced: "12:00 – 2:00 PM" },
+  { day: "Sunday", beginner: " 7:00 – 6:30 PM", intermediate: "—", advanced: "12:00 – 2:00 PM" },
 ];
 
 export default function CourseSchedule() {
@@ -29,7 +30,7 @@ export default function CourseSchedule() {
                 </th>
                 <th className="text-center font-display font-semibold text-foreground py-4 px-4">Beginner</th>
                 <th className="text-center font-display font-semibold text-foreground py-4 px-4">Intermediate</th>
-                <th className="text-center font-display font-semibold text-foreground py-4 px-4">Advanced</th>
+                {/* <th className="text-center font-display font-semibold text-foreground py-4 px-4">Advanced</th> */}
               </tr>
             </thead>
             <tbody>
@@ -38,7 +39,7 @@ export default function CourseSchedule() {
                   <td className="py-4 px-4 font-semibold text-foreground">{row.day}</td>
                   <td className="py-4 px-4 text-center text-foreground/70">{row.beginner}</td>
                   <td className="py-4 px-4 text-center text-foreground/70">{row.intermediate}</td>
-                  <td className="py-4 px-4 text-center text-foreground/70">{row.advanced}</td>
+                  {/* <td className="py-4 px-4 text-center text-foreground/70">{row.advanced}</td> */}
                 </tr>
               ))}
             </tbody>

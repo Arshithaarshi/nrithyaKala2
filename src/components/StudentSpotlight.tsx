@@ -3,16 +3,16 @@ import { Award } from "lucide-react";
 
 const spotlights = [
   {
-    name: "abinaya Raghavan",
-    achievement: "Performed at Rashtrapati Bhavan, New Delhi",
-    years: "8 years of training",
-    quote: "NrityaKala gave me wings to express my soul through dance.",
+    name: "Sarmitha .S",
+    // achievement: "Performed at Rashtrapati Bhavan, New Delhi",
+    years: "15 years of training",
+    quote: "Our institution has shaped me into a disciplined and dedicated individual , teaching me the value of responsibility and transforming me into a well-trained performer .",
   },
   {
-    name: "Meera Subramaniam",
-    achievement: "Recipient of Yuva Kala Bharathi Award",
-    years: "10 years of training",
-    quote: "The discipline I learned here shaped every aspect of my life.",
+    name: "Elakiya .K",
+    // achievement: "Recipient of Yuva Kala Bharathi Award",
+    years: "16 years of training",
+    quote: "Kavinaya Natiyalaya is more than just a dance school ; It is a place where passion ,  tradition , discipline , and excellence come together . The inspiring guidance and supportive environment have deepened my love for bharatanatyam and helped me grow with confidemce . Proud to be a student here .",
   },
   {
     name: "Kavitha Rajan",

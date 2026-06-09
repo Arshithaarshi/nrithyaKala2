@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import heroImage from "@/assets/hero-dancer.jpg";
+import heroImage from "@/assets/hero-dancer2.png";
 
 export default function HomeWelcome() {
   const { ref, isVisible } = useScrollReveal();

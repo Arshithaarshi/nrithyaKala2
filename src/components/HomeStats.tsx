@@ -2,10 +2,10 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useEffect, useState } from "react";
 
 const stats = [
-  { number: 25, suffix: "+", label: "Years of Legacy" },
-  { number: 85, suffix: "+", label: "Arangetrams" },
-  { number: 1500, suffix: "+", label: "Students Trained" },
-  { number: 200, suffix: "+", label: "Stage Performances" },
+  { number: 20, suffix: "+", label: "Years of Legacy" },
+  { number: 13, suffix: "+", label: "Arangetrams" },
+  { number: 300, suffix: "+", label: "Students Trained" },
+  { number: 400, suffix: "+", label: "Stage Performances" },
 ];
 
 function AnimatedCounter({ target, suffix, isVisible }: { target: number; suffix: string; isVisible: boolean }) {
